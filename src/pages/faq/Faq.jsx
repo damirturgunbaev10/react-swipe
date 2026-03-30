@@ -11,7 +11,7 @@ const Faq = () => {
         <div className="faq__header">
           <h2 className="faq__title">Frequently asked questions</h2>
           <div className="faq__img-wrapper">
-             <img src={Blobs} className="faq__background-img" />
+             <img src={Blobs} className="faq__background-img" alt='faq__blobs' />
           </div>
         </div>
 

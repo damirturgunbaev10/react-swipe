@@ -9,6 +9,7 @@ import Video from './pages/video/Video'
 import Technologies from './pages/technologies/Technologies'
 import Team from './pages/team/Team'
 import Faq from './pages/faq/Faq'
+import Footer from './components/footer/Footer'
 
 
 
@@ -24,6 +25,7 @@ const App = () => {
       <Technologies />
       <Team />
       <Faq />
+      <Footer/>
     </div>
   )
 }

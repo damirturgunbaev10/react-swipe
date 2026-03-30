@@ -5,7 +5,7 @@ const Link = ({text, className}) => {
   return (
     <div className={`link ${className}`}>
       <img src={LinkImg} alt="link__img" />
-      <a className="link__text">{text}</a>
+      <a href='https://github.com/damirturgunbaev10' className="link__text">{text}</a>
     </div>
   );
 };

@@ -21,32 +21,32 @@ const Navbar = () => {
             </a>
           </li>
           <li className="navbar__item">
-            <a href="#" className="navbar__link">
+            <a href="#Pricinggo" className="navbar__link">
               Pricing
             </a>
           </li>
           <li className="navbar__item">
-            <a href="#" className="navbar__link">
+            <a href="#Team" className="navbar__link">
               Team
             </a>
           </li>
           <li className="navbar__item">
-            <a href="#" className="navbar__link">
+            <a href="#Faq" className="navbar__link">
               FAQ
             </a>
           </li>
           <li className="navbar__item">
-            <a href="#" className="navbar__link">
+            <a href="#Feedback" className="navbar__link">
               Feedback
             </a>
           </li>
           <li className="navbar__item">
-            <a href="#" className="navbar__link">
+            <a href="#Blog" className="navbar__link">
               Blog
             </a>
           </li>
           <li className="navbar__item">
-            <a href="#" className="navbar__link">
+            <a href="#Contact" className="navbar__link">
               Contact
             </a>
           </li>
