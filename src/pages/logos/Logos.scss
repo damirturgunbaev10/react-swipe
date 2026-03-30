@@ -1,0 +1,11 @@
+.logos {
+  margin-top: 100px;
+  z-index: 2;
+  background-color: #e7e5ff;
+
+  &__container {
+    height: 180px;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

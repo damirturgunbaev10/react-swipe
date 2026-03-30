@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li {
+  font-style: normal;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 70px;
+  line-height: 77px;
+  color: #2d2b5c;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 42px;
+  color: #1a1930;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #2d2b5c;
+}
+
+html {
+  -webkit-scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  transition: all 0.2s ease;
+}
+
+li:hover {
+  transform: scale(1.05);
+}
+a {
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  transform: scale(1.05);
+}
+
+section,
+header,
+footer {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  position: relative;
+  margin: auto;
+  width: 1340px;
+  display: flex;
+}
+
+button {
+  height: 60px;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 22px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &:hover {
+    transform: scale(1.05);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
+  width: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+hr {
+  background-color: #f1f0f7;
+  border: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.subtopic {
+  font-size: 44px;
+  line-height: 50px;
+  color: #2d2b5c;
+}
+
+.title__hr {
+  width: 750px;
+  height: 3px;
 }

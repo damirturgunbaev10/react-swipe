@@ -1,0 +1,40 @@
+.numbers {
+  margin-top: 100px;
+  &__container {
+    height: 588px;
+    justify-content: space-between;
+  }
+
+  &__sbt,
+  &__title {
+    position: relative;
+    z-index: 10;
+  }
+
+  &__bcg {
+    position: absolute;
+    top: -200px;
+    left: -91px;
+    z-index: 3;
+  }
+
+  &__card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 31px;
+
+    &__left {
+      margin-right: 143px;
+    }
+
+    &__hr {
+      margin-bottom: 28px;
+    }
+
+    &__text {
+      width: 383px;
+      margin-top: 20px;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.video {
+  &__container {
+    margin-top: 143px;
+    flex-direction: column;
+    height: 908px;
+  }
+
+  &__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__title {
+    width: 473px;
+  }
+
+  &__bottom{
+    margin: auto;
+    margin-top: 86px;
+  }
+}
+
+iframe{
+    width: 1300px;
+    height: 730px;
+}

@@ -1,0 +1,21 @@
+.navbar {
+  margin-top: 36px;
+  z-index: 10;
+  &__container {
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__list {
+    gap: 24px;
+  }
+
+  &__link {
+    color: #1a1930;
+  }
+
+  &__btn {
+    width: 139px;
+  }
+}

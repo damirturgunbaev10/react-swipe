@@ -1,0 +1,9 @@
+.link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  &__text {
+    text-transform: uppercase;
+    color: #1a1930;
+  }
+}

@@ -1,0 +1,85 @@
+.features {
+  &__container {
+    margin-top: 148px;
+    height: 778px;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 5;
+  }
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    width: 553px;
+  }
+
+  &__btn {
+    width: 139px;
+  }
+
+  &__bottom {
+    position: relative;
+    display: flex;
+    margin: auto;
+    width: 1300px;
+    height: 468px;
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid #fbfbff;
+    box-shadow: 0px 4px 20px rgba(193, 193, 193, 0.3);
+    border-radius: 10px;
+    z-index: 20;
+  }
+
+  &__card {
+    position: initial;
+    width: 433px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    padding: 44px 50px;
+    z-index: 4;
+
+    &__list {
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    &__item {
+      display: flex;
+      align-items: start;
+      gap: 21.75px;
+      width: 290px;
+    }
+  }
+
+  &__hr {
+    margin: 44px 0;
+    width: 2px;
+    height: 364px;
+  }
+
+  &__bcg{
+    position: absolute;
+    z-index: 1;
+  }
+
+  &__square__bcg{
+    width: 235px;
+    top: 260px;
+    left: -45px;
+  }
+
+  &__circle__bcg{
+    width: 317px;
+    left: 460px;
+    top: 460px;
+  }
+
+  &__cylinder__bcg{
+    top: 140px;
+    right: -15px;
+  }
+}

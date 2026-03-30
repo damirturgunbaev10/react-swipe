@@ -1,0 +1,37 @@
+.technologies {
+  &__container {
+    height: 1018px;
+    margin-top: 193px;
+    flex-direction: column;
+    gap: 43px;
+  }
+
+  &__part {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    &__top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &__bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 120px;
+
+      &__title {
+        margin-bottom: 53px;
+      }
+      &__text {
+        width: 704px;
+      }
+    }
+  }
+  &__link {
+    margin-top: 52px;
+  }
+}
